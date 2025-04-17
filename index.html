@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HAXC Engine 1.1</title>
+  <title>HAXC Engine 1.2</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -67,10 +67,43 @@
       justify-content: center;
       gap: 10px;
     }
+    .notification {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #4caf50;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .notification button {
+      background: #f44336;
+      border: none;
+      color: #fff;
+      padding: 5px 10px;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    .notification button:hover {
+      background: #d32f2f;
+    }
   </style>
 </head>
 <body>
-  <h1>HAXC Engine 1.1</h1>
+  <!-- Notifikasi -->
+  <div class="notification" id="notification">
+    📢 HAXC ENGINE v1.2 telah dirilis! Versi demo ini menghadirkan perbaikan bug minor dan optimisasi performa agar lebih ringan dan stabil. Nantikan fitur-fitur baru besar di versi 1.5 yang sedang kami siapkan! 🚀
+    <button id="closeNotification">Tutup</button>
+  </div>
+
+  <h1>HAXC Engine 1.2</h1>
   <p>💻 Tulis kode HTML, CSS, dan JavaScript Anda di bawah ini, lalu klik "Jalankan" untuk melihat hasilnya!</p>
 
   <div class="editor-container">
@@ -89,6 +122,8 @@
     const runCodeButton = document.getElementById("runCode");
     const fullscreenButton = document.getElementById("fullscreenMode");
     const outputFrame = document.getElementById("outputFrame");
+    const notification = document.getElementById("notification");
+    const closeNotification = document.getElementById("closeNotification");
 
     // Fungsi untuk menjalankan kode
     runCodeButton.addEventListener("click", function () {
@@ -126,6 +161,11 @@
       } else if (outputFrame.msRequestFullscreen) { // IE/Edge
         outputFrame.msRequestFullscreen();
       }
+    });
+
+    // Fungsi untuk menutup notifikasi
+    closeNotification.addEventListener("click", function () {
+      notification.style.display = "none";
     });
   </script>
 </body>
