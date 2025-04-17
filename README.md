@@ -1,23 +1,19 @@
-🚀 HAXC ENGINE v1.1 DEMO RESMI DIRILIS!
-Halo kreator & developer!
-Hari ini kami resmi meluncurkan HAXC ENGINE v1.1 DEMO, sebuah engine antarmuka terbaru yang lebih sederhana dan ringan — sebagai penerus dari Side Engine.
+🔧 HAXC ENGINE v1.2 - Minor Stability Update
+Kami telah merilis versi demo HAXC ENGINE v1.2 sebagai bagian dari pengembangan berkelanjutan.
+Fokus utama update kali ini adalah pada peningkatan performa dan perbaikan bug minor yang ditemukan pada versi sebelumnya.
 
-🔧 Tentang HAXC ENGINE
-HAXC dibuat untuk memudahkan kamu membuat UI dan komponen web dengan cepat, tanpa perlu ribet dengan sistem yang berat. Versi demo ini sudah mendukung:
+🛠️ Apa yang Diperbarui di v1.2:
+🔧 Perbaikan bug kecil pada sistem rendering komponen
 
-💡 Editor HTML + CSS dasar
+⚡ Optimisasi performa saat memuat dan mengedit elemen
 
-⚡ Preview real-time
+💻 UI dibersihkan dan ditingkatkan agar lebih responsif
 
-📁 Struktur minimalis dan clean
+📌 Catatan:
 
-📅 Kapan Versi Final Rilis?
-📌 Versi final HAXC ENGINE direncanakan rilis dalam waktu 1 bulan ke depan, atau bahkan bisa lebih cepat tergantung perkembangan. Stay tuned!
+Versi ini belum membawa fitur baru besar.
+Namun, fitur-fitur baru akan hadir di versi 1.5, termasuk kemungkinan dukungan ekspor proyek dan fitur interaktif lanjutan.
 
-❗ INFO PENTING:
-Side Engine kini resmi dihentikan dan dihapus sepenuhnya.
-Semua fokus pengembangan kini dialihkan ke HAXC ENGINE sebagai pengganti resmi.
-
-Dibuat oleh XOBE DEVELOPMENT
-Terima kasih telah mencoba versi demo ini. Dukungan dan feedback kalian sangat berarti!
+Dikembangkan oleh XOBE DEVELOPMENT
+💬 "Kesederhanaan adalah pondasi efisiensi. Versi kecil, dampak besar."
 
